@@ -1,2 +1,0 @@
-# amertx.github.io
-Personal
