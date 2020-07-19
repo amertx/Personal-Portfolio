@@ -1,9 +1,7 @@
 const config = require('./src/config');
 const theme = require('./src/styles/Theme')
 
-module.exports = {
-  pathPrefix: "/reponame",
-}
+
 module.exports = {
   siteMetadata: {
     title: config.siteTitle,

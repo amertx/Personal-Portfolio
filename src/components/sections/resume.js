@@ -1,18 +1,8 @@
-import React, { useState, useEffect, useRef } from "react"
-import PropTypes from "prop-types"
+import React from "react"
 import styled from "styled-components"
-import Img from "gatsby-image"
-import { motion, useAnimation } from "framer-motion"
+import { motion } from "framer-motion"
 
-import { detectMobileAndTablet, isSSR } from "../../utils"
-import { useOnScreen }  from "../../hooks/"
 import ContentWrapper from "../../styles/ContentWrapper"
-import Button from "../../styles/Button"
-import {BrowserView,MobileView,isBrowser,isMobile} from "react-device-detect";
-import Blink from 'react-blink-text';
-import Bounce from 'react-reveal/Bounce';
-import Fade from 'react-reveal/Fade';
-
 
 
 const StyledSection = styled.section`

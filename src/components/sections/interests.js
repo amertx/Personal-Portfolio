@@ -8,11 +8,8 @@ import { detectMobileAndTablet, isSSR } from "../../utils"
 import { useOnScreen }  from "../../hooks/"
 import ContentWrapper from "../../styles/ContentWrapper"
 import Button from "../../styles/Button"
-import {BrowserView,MobileView,isBrowser,isMobile} from "react-device-detect";
-import Blink from 'react-blink-text';
+import {MobileView} from "react-device-detect";
 import Bounce from 'react-reveal/Bounce';
-import Fade from 'react-reveal/Fade';
-
 
 
 
