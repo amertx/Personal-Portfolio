@@ -24,11 +24,7 @@ module.exports = {
         {
             name: "Github",
             url: "https://github.com/amertx"
-        },
-        {
-            name: "Instagram",
-            url: "https://instagram.com/amerdtx"
-        },
+        }, 
         
         
     ],

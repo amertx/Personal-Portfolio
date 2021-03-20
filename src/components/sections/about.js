@@ -9,6 +9,10 @@ import { useOnScreen } from "../../hooks/"
 import ContentWrapper from "../../styles/ContentWrapper"
 import Bounce from 'react-reveal/Bounce';
 
+
+
+
+
 const StyledSection = styled.section`
   width: 100%;
   height: auto;
@@ -62,6 +66,9 @@ const StyledContentWrapper = styled(ContentWrapper)`
   }
 `
 
+
+
+
 const About = ({ content }) => {
   const { frontmatter, body } = content[0].node
 
@@ -107,12 +114,17 @@ const About = ({ content }) => {
         >
           <Bounce right>
           <h3 className="section-title">{frontmatter.title}</h3>
+
           </Bounce>
           <div className="text-content">
             <MDXRenderer>{body}</MDXRenderer>
+            
+           
+            
           </div>
         </motion.div>
         
+
       </StyledContentWrapper>
     </StyledSection>
   )

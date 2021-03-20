@@ -203,7 +203,7 @@ const Resume = () => {
       </div>
      
       <div >
-      <iframe src="https://drive.google.com/file/d/1E_0a1rzdsA_0BrnZGFlNTO6C92p7zrZI/preview" width="100%" height="480" scrolling="auto" ></iframe>
+      <iframe title="resume" src="https://drive.google.com/file/d/1kb8BeMo3IO0xQwL0gtpgCt1zG3HncfN6/preview" width="100%" height="480" scrolling="auto" ></iframe>
       </div>
       
     </StyledContentWrapper>
