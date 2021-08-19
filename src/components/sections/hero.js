@@ -121,6 +121,8 @@ const Hero = ({ content }) => {
               {frontmatter.subtitle}
             </AnimatedUnderlining>
           </h2>
+
+      
           <div className="description">
             <MDXRenderer>{body}</MDXRenderer>
           </div>

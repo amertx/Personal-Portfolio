@@ -25,6 +25,10 @@ module.exports = {
             name: "Github",
             url: "https://github.com/amertx"
         }, 
+        {
+            name: "FinTech UTD",
+            url: "http://fintech-utd.netlify.app"
+        }, 
         
         
     ],
